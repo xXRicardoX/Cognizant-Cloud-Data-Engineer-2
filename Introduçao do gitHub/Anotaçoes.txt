@@ -1,0 +1,47 @@
+Link para download do Git: https://git-scm.com/
+
+Git Bash é um terminal extendido para otimizar o uso do Git.
+
+
+Comandos para Inicializar o ssh-agente
+eval $ (ssh-agent -s) -> gerar agente
+
+ssh-add id_ed 25519 -> Senha que o github vai pedir
+
+git init		ls -a -> mostra a pasta oculta
+
+git add
+
+git commit 
+
+Conf. 1° commit após o git init
+
+git config --global user.email "Email do login que faz no github"
+
+git config --global user.name "Preferencia do msm nome do github"
+
+---\\---
+
+git add *
+
+git commit -m "commit inicial"
+git status
+mv = mover
+git comit -m "Msg da alteração feita"
+
+git pull origin master
+
+git config --list -> Lista de toda configuração
+
+git config --global --unset user.email -> apaga a config do email cadastrado no git
+
+git config --global --unset user.name -> apaga a config do nome cadastrado no git
+
+
+Empurrar os arquivos pro github
+git remote -v -> Lista a lista remota já cadastrada
+
+git push origin master -> kear as branch para o github
+
+Clonar o repositorio no github
+git clone "link do https ou do SSH"
