@@ -1,0 +1,23 @@
+Comandos basicos terminal linux
+
+Abrir o terminal-> CTRL +ALT+T
+
+pwd -> mostra qual pasta esta no terminal
+
+ls -> lista os diretorios
+
+ls -l -> lista os diretorios com detalhes gerais
+
+ls --help -> mostra as funções do comando ls
+
+mkdir -> criar pastar pelo terminal
+
+cd .. retorna para o diretorio anterior
+ 
+cd / retorna para o diretorio raiz
+
+man ls -> lista o manual (Para sair presione Q)
+
+history -> mostra os comandos digitado no terminal
+
+!! -> executa o ultimo do comando do terminal
