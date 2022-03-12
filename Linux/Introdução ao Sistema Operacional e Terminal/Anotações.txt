@@ -20,4 +20,30 @@ man ls -> lista o manual (Para sair presione Q)
 
 history -> mostra os comandos digitado no terminal
 
-!! -> executa o ultimo do comando do terminal
+ctrl + C -> Cancela o comando atual em funcionamento.
+
+Ctrl + Z -> Pausa o comando atual, em primeiro ou segundo plano
+
+Ctrl + D -> Faz o logout da sessão atual
+
+Ctrl+ W -> Apaga uma palavra na linha atual
+
+Ctrl + U -> Apaga uma linha inteira
+
+Ctrl + R -> Busca um comando recente
+
+!! -> Repete o último comando
+
+exit -> Faz o logout da sessão atual
+
+man -> Manual
+
+mv -> mover(mv nome do arquivo ~ um arquivo / renomear (ex: mv teste linux) um diretorio
+
+touch -> cria um arquivo
+
+CP -> copia (Ex: cp linux.txt /home/ricardo) do arquivo
+
+RM -> excluir arquivo
+
+RMDIR -> excluir diretorio
