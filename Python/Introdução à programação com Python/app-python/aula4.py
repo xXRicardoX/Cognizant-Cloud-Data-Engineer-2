@@ -20,24 +20,14 @@ elif media > 4 and media < 7:
 else:
     print("O aluno foi reprovado!!! ")
 
-
-
-
-
-
 # nota = int(input('Entre com a nota: '))
 # while nota > 10:
 #     nota = int(input('Nota invalida. Entre com a nota correta: '))
-
-
 
 # a = 0
 # while a <=10:
 #     print(a)
 #     a += 1
-
-
-
 
 # a = int(input('Entre com um valor: '))
 # for num in range(a +1):
@@ -50,10 +40,6 @@ else:
 #     if div == 2:
 #         print(num)
 
-
-
-
-
 # a = int(input("Entre com o número: "))
 # div = 0
 # for x in range(1, a+1):
@@ -65,8 +51,6 @@ else:
 #     print('Número {} é primo'.format(a))
 # else:
 #     print('Número {} não e primo'.format(a))
-
-
 
 # for x in range(101):
 #     print(x)
