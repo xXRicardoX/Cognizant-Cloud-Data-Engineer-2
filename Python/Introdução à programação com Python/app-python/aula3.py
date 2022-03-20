@@ -35,17 +35,11 @@ else:
 # else:
 #     print('Nenhum numero par foi digitado')
 
-
 #resto = a % 2
 # if resto == 0:
 #     print('o numero {} e par '.format(a) )
 # else:
 #     print('o numero {} e impar '.format(a))
-
-
-
-
-
 
 # a = int(input('primeiro valor: '))
 # b = int(input('Segundo valor: '))
