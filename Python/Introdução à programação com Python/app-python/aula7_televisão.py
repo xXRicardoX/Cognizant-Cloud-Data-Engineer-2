@@ -11,10 +11,12 @@ class Televisao():
             self.ligada = True
 
     def aumenta_canal(self):
-        self.canal += 1
+        if self.ligada:
+            self.canal += 1
 
-    def diminui_canal:
-        self.canal -= 1
+    def diminui_canal(self):
+        if self.ligada:
+            self.canal -= 1
 
 televisao = Televisao()
 print('Televisão esta ligada: {}'.format(televisao.ligada))
@@ -22,3 +24,11 @@ televisao.power()
 print('Televisão esta ligada: {}'.format(televisao.ligada))
 televisao.power()
 print('Televisão esta ligada: {}'.format(televisao.ligada))
+print('Canal: {}'.format(televisao.canal))
+televisao.power()
+print('Televisão esta ligada: {}'.format(televisao.ligada))
+televisao.aumenta_canal()
+televisao.aumenta_canal()
+print('Canal: {}'.format(televisao.canal))
+televisao.diminui_canal()
+print('Canal: {}'.format(televisao.canal))
