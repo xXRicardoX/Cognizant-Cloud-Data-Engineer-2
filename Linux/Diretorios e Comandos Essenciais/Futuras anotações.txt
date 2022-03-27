@@ -2,7 +2,7 @@ Terminal
 >> = adiciona  arquivo
 > = substitui o arquivo
 nano + "nome do arquivo.txt" = abrir o editor de texto do terminal
-cat + "Nome do arquivo.txt" = visuailoza o arquivo
+cat + "Nome do arquivo.txt" = visualiza o arquivo
 tac + "nome do arquivo.txt" = faz uma inversao do cat
 cal = calendario
 touch = criar o arquivo
@@ -26,3 +26,40 @@ ALt + E refazer
 Alt + A = marcando
 ^ + u = colar o texto
 ^ + \ = Substituir
+
+cat - Exibe conteúdos de arquivos no terminal
+tac - Exibe a ordem inversa dos conteúdos no terminal
+nano - Editor de textos Linux
+touch - Cria arquivos vazios
+find - Busca arquivos
+file - Exibe o tipo de um arquivo
+head - Exibe as 10 primeiras linhas de um arquivo
+tail - Exibe as 10 ultimas linhas de um arquivo
+more - Exibe a paginação em um arquivo de texto
+less - Exibe paginação em um arquivo de texto
+grep - Busca Palavras em um arquivo texto
+cal - Exibe Calendário
+whatis - Exibe uma explicação sobre o comando
+| - Envia a saída de um comando para entrada de outro
+> - Redireciona a saída de um comando para outro comando ou arquivo
+>> - Redireciona a saída e adiciona a mesma para um comando ou arquivo
+< - Direciona  a entrada de um arquivo para a saída de um comando
+& - Este operador permite usar dois comandos e separar suas saídas no terminal
+&& - Usado para que dois comandos só sejam executados se o primeiro for executado corretamente 
+
+cat /proc/cpuinfo - Arquivo de informações do processador
+lscpu - Exibe Informações do processador
+cat /proc/cpuinfo - Arquivo de informações da memória
+free - Exibe informações da memoria física e virtual
+lshw - Exibe Informações detalhadas sobre hardware
+lshw -short - Exibe Informações sobre hardware
+uname - Exibe o nome do kernel do sistema
+uname -r - Exibe a versão do Kernel
+uname -m - Exibe a arquitetura do kernel
+arch - Exibe a arquitetura do kernel
+lsusb - Exibe todos os dispositivos usb conectados
+lspci - Exibe todas as placas PCI conectadas
+du -h ~ Exibe o espaço que cada arquivo e pasta no diretório pessoal consome no hd
+reboot - Reinicia o sistema
+shutdown -r - Reinicia o sistema
+shutdown -h now - Desliga o sistema agora
