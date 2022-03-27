@@ -1,0 +1,28 @@
+Terminal
+>> = adiciona  arquivo
+> = substitui o arquivo
+nano + "nome do arquivo.txt" = abrir o editor de texto do terminal
+cat + "Nome do arquivo.txt" = visuailoza o arquivo
+tac + "nome do arquivo.txt" = faz uma inversao do cat
+cal = calendario
+touch = criar o arquivo
+tail = exibe os ultimos 10 arquivos
+cat > filename cria um novo arquivo
+cat filename1 filename2>filename3 junta dois arquivos (1 e 2) e armazena a saída deles num novo arquivo (3)
+file = tipo de arquivo de arquivo
+whatis = o que faz um determinado comando
+find = buscar arquivo pelo nome
+
+
+Editor do terminal
+^ = CTRL
+alt E = Refazer
+Alt + A = vai marcando o texto
+Alt + 6 = Vai copiar o texto
+^ + u = vai colar o texto
+^ + J = Justificar
+Alt + u = Desfazer
+ALt + E refazer
+Alt + A = marcando
+^ + u = colar o texto
+^ + \ = Substituir
