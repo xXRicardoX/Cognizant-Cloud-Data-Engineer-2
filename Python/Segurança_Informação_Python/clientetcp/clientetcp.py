@@ -17,10 +17,10 @@ def main():#conecção de tcp/ip
 
     try:
         s.connect((HostAlvo, int(PortaAlvo)))
-        print("Cliente TCP conectado com sucesso no Host: " + HostAlvo + "e na Porta: " + PortaAlvo)
+        print("Cliente TCP conectado com sucesso no Host: " + HostAlvo + " e na Porta: " + PortaAlvo)
         s.shutdown(2)
     except socket.error as e:
-        print("Não foi possivel conectar no Host: " + HostAlvo + "e na porta: "+PortaAlvo)
+        print("Não foi possivel conectar no Host: " + HostAlvo + " e na porta: "+PortaAlvo)
         print("Erro: {}"+format(e))
         sys.exit()
 
